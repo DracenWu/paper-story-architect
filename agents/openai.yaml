@@ -1,0 +1,6 @@
+interface:
+  display_name: "Paper Story Architect"
+  short_description: "Blueprint and audit a paper's full narrative"
+  default_prompt: "Use $paper-story-architect to build, audit, or update a full-manuscript narrative blueprint without drafting prose."
+policy:
+  allow_implicit_invocation: true
