@@ -8,6 +8,8 @@ Order: `phenomenon/significance -> practical tension -> compact prior-work map -
 
 The Introduction creates promises; it does not discharge them. Each gap unit must connect a prior-work synthesis to an exact unresolved object, explain the consequence, and establish the corresponding aim. Method fit states capability, not implementation detail. Contributions may not exceed the evidence planned later.
 
+Keep gap, RQ, and study response in that order. A gap paragraph should not close with a repeated solution before the unanswered question is clear. State an RQ as an unknown about the research object; put chosen procedures, fields, models, and tests in the subsequent design response unless they are themselves the research object. Check demonstratives such as “this representation” against an antecedent already available to the reader.
+
 Handoff: a finite set of questions and required capabilities that Related Work and Methods must establish.
 
 ## `related_work`
@@ -15,6 +17,10 @@ Handoff: a finite set of questions and required capabilities that Related Work a
 Order: `research object/boundary -> problem-oriented solution streams -> necessary mechanisms -> contextual or temporal conditions -> closest work -> unresolved intersection -> design requirements`.
 
 Order streams by cognitive dependency, not chronology, search bins, or method labels. Each subsection receives an `entry_question`, establishes a premise, identifies the residual problem, and hands that exact problem onward. Transition words do not create dependency. If adjacent units can be swapped without loss, clarify their dependency, merge them, or remove one.
+
+For each stream, distinguish the question studied, actual method, reported finding, and remaining question. A literature-to-RQ handoff states the unresolved question; it does not prescribe the authors' chosen workflow immediately after an RQ label. Reserve exact expected outputs, implementation fields, and settings for Methods. A review can explain why a capability is needed without presenting this study's solution as prior knowledge. Verify categorical novelty claims against the closest work.
+
+When a literature landscape table helps, use it to synthesize streams and the unresolved intersection. Verify each row's source and analytical role. Repeating RQ labels in every row is no substitute for explaining the connection. Plan its first citation at the synthesis paragraph in Related Work and keep it near that paragraph in the rendered paper.
 
 Handoff: evidence-backed method requirements, not a scarcity claim.
 
@@ -24,6 +30,8 @@ Order: `design requirement -> unit/setting/temporal order -> constructs and elig
 
 Translate every RQ into executable or estimable objects before implementation details. State what changes, what remains fixed, expected outputs, and interpretation rules. Put a genuine scope condition next to the operation it constrains. Methods defines evidence objects; it does not announce findings or repair an unresolved literature gap.
 
+Separate the evidence classes the study actually uses before naming results. Source construction, annotation reliability, generated conformance, descriptive comparison, model sensitivity, and external validation establish different things. Explain consequential inherited choices as study-specific definitions, without treating a loosely related citation as proof of optimality. Keep hashes, paths, and maintenance logs out of narrative prose unless a detail is necessary to interpret or reproduce a scientific quantity.
+
 Handoff: predefined evidence objects and rules that Results can report without inventing a new estimand.
 
 ## `results`: evidence ladder
@@ -31,6 +39,8 @@ Handoff: predefined evidence objects and rules that Results can report without i
 Order: `input/descriptive validity -> analytical, model, audit, or conformance credibility -> principal answers in RQ order -> boundary/sensitivity/robustness evidence -> compact synthesis`.
 
 A validity condition must precede any claim that depends on it. Results establishes what happened under defined comparisons, not why it matters theoretically. Figures and tables require named claims and text consumers. A bundled contrast cannot be narrated as an isolated mechanism effect; a controlled fixture cannot silently become external validation.
+
+Show the decision-bearing observation rather than repeating output cells that hide it. Keep relevant null and boundary findings. If evidence contradicts an intended claim, narrow or withdraw the claim. Check denominators, estimands, labels, and evidence status against current result artifacts.
 
 Handoff: a bounded finding set, with validity and uncertainty attached, that Discussion must consume.
 
@@ -56,5 +66,7 @@ Conclusion is compression, not escalation. It adds no new data, result, mechanis
 - Results must not create a new literature gap or theoretical mechanism.
 - Discussion must not introduce primary evidence.
 - Conclusion must not expand scope or novelty.
+
+For every figure and table, record its first substantive citation, explanatory paragraph, and intended section. When a rendered manuscript exists, inspect its actual page and reading order: explanation should precede or accompany the visual, and a float should not interrupt an unrelated section. Check that captions, grouped headers, notes, and arrow meanings match the prose and implemented objects. Visual proximity alone does not validate numerical content.
 
 At each handoff, record the unresolved reader question and the downstream unit that answers it. `inherits_from_previous` and paragraph `inherits_from` point only to an earlier section/paragraph or a paper-story root explicitly allowed by `whole-paper-story.md`; RQ IDs and output-side paper-story fields are not inheritance targets. Paragraph `consumed_by` points only downstream, to a declared RQ, or to `paper_story.closure_claim`. A smooth sentence-level transition cannot compensate for a missing logical consumer. At both depths, retain a non-empty evidence ledger and make `principal_evidence` name one of its evidence IDs.

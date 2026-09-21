@@ -28,6 +28,8 @@ Resolve files from the current workspace; do not assume directory names. Read av
 
 Precedence is: verified evidence/project contract > confirmed RQs/contribution boundary > manuscript > benchmarks > defaults. Expose version conflicts. Benchmarks shape form, never scientific scope.
 
+Reconcile review notes and planned visuals with the current manuscript, implemented schema, frozen outputs, and rendered PDF before turning them into blueprint facts. Preserve valid adverse or null evidence; repair a contradicted claim rather than removing its evidence for narrative convenience.
+
 ## Route only what the operation needs
 
 Always read [whole-paper-story.md](references/whole-paper-story.md). Read [section-arcs.md](references/section-arcs.md) for building, order audit, or handoffs.
@@ -35,6 +37,8 @@ Always read [whole-paper-story.md](references/whole-paper-story.md). Read [secti
 - For `build`: read both files above. At `deep`, add [paragraph-language-citations.md](references/paragraph-language-citations.md) and [audit-gates.md](references/audit-gates.md). Read [benchmark-lessons.md](references/benchmark-lessons.md) only when benchmarks are available or form is disputed.
 - For `audit`: read [audit-gates.md](references/audit-gates.md); add [section-arcs.md](references/section-arcs.md) for order/role failures, [paragraph-language-citations.md](references/paragraph-language-citations.md) for paragraph, transition, scope, or citation failures, and [benchmark-lessons.md](references/benchmark-lessons.md) only for benchmark-based judgments.
 - For `update`: read [whole-paper-story.md](references/whole-paper-story.md) and the reference governing each impacted unit. Do not load unrelated references.
+
+For manuscript-level `audit` and `deep` builds, apply the RQ/implementation and visual-placement probes in [section-arcs.md](references/section-arcs.md) and [audit-gates.md](references/audit-gates.md). Record a figure or table's intended first citation and explanatory paragraph; when a PDF exists, inspect the actual reading order. This skill specifies repairs, while manuscript drafting and typesetting perform them.
 
 ## Operate with explicit gates
 
@@ -45,6 +49,10 @@ For `build`, stop at exactly three confirmations:
 3. freeze and matching-depth validation; at `deep`, this confirmation also includes paragraph dependencies and all eleven gate verdicts.
 
 Write or overwrite only after the relevant confirmation. For `audit`, return `BLOCKER`, `MAJOR`, and `MINOR` findings with affected IDs, failed gate, evidence, and repair outcome. Editing requires a separate request. For `update`, first map effects across the six canonical roles and evidence ledger; after confirmation, update only the blueprint.
+
+### Notation and abbreviation first-use contract
+
+At `build`, place each study-specific symbol, acronym, configuration code, scenario identifier, metric shorthand, and indexed quantity at a point where its meaning is available **before or at its first substantive use**. At `audit` and `update`, scan the whole manuscript or blueprint in reading order, including abstract, prose, equations, captions, tables, and figure labels; record the first use and the definition or cited original source for each item. A borrowed notation may instead be introduced with an explicit citation to the source that defines it, but a citation to a related method does not establish the meaning of a study-specific code. An equation's `where` clause immediately following the equation counts as a local definition; a later subsection or table note cannot retroactively define notation used earlier in prose. Keep the abstract independently readable and define table-only or figure-only abbreviations in their own note/caption. Flag unexplained mappings, reused symbols with changed meanings, and uses preceding definition as forward-reference failures. In a blueprint, record the required definition before the first dependent paragraph; this skill does not edit manuscript text to repair the failure.
 
 ## Preserve boundaries
 

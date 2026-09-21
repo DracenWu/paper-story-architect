@@ -39,6 +39,8 @@ Plan citations by what a sentence does:
 
 Reject blanket citation-density targets, including an 85% rule. Such thresholds reward stuffing and distort Introduction and Methods. Literature synthesis should be citation-rich because of its functions, not because it must reach a percentage. Every planned citation needs a role such as definition, synthesis, contrast, method, finding, or closest-work positioning.
 
+In literature synthesis, separate an originating study's finding from the author's cross-study inference. A citation supports what its source actually reports, not an adjacent new interpretation. Count references cited in the final text, not unused bibliography entries, and remove sources included only to reach a numerical target. Verify each review-table row's study object, method, and finding against its sources.
+
 ## Positive and precise scope
 
 Record the strongest affirmative claim supported by the evidence, then record its real boundary once where that boundary controls interpretation.
@@ -62,3 +64,5 @@ A transition is valid only if it carries at least one of:
 5. a completed claim whose consequence motivates the next unit.
 
 Connector words such as “however” and “therefore” are not evidence of a handoff. Test the record by deleting the transition wording: the dependency should remain visible in the inherited premise and outgoing question.
+
+Check each paragraph's opening and ending in context. The opening names a known object or supplies the needed bridge; the remaining sentences complete one job; the ending creates the next reader question without announcing the solution too early. Replace vague “this,” “these,” or “that” with an explicit antecedent when a reference crosses a paragraph or section boundary.
