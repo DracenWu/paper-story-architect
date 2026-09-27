@@ -38,7 +38,7 @@ Always read [whole-paper-story.md](references/whole-paper-story.md). Read [secti
 - For `audit`: read [audit-gates.md](references/audit-gates.md); add [section-arcs.md](references/section-arcs.md) for order/role failures, [paragraph-language-citations.md](references/paragraph-language-citations.md) for paragraph, transition, scope, or citation failures, and [benchmark-lessons.md](references/benchmark-lessons.md) only for benchmark-based judgments.
 - For `update`: read [whole-paper-story.md](references/whole-paper-story.md) and the reference governing each impacted unit. Do not load unrelated references.
 
-For manuscript-level `audit` and `deep` builds, apply the RQ/implementation and visual-placement probes in [section-arcs.md](references/section-arcs.md) and [audit-gates.md](references/audit-gates.md). Record a figure or table's intended first citation and explanatory paragraph; when a PDF exists, inspect the actual reading order. This skill specifies repairs, while manuscript drafting and typesetting perform them.
+For manuscript-level `audit` and `deep` builds, apply the RQ/implementation and visual-placement probes in [section-arcs.md](references/section-arcs.md) and [audit-gates.md](references/audit-gates.md), then read [manuscript-integrity.md](references/manuscript-integrity.md). Record the overall gap and consequence, each RQ's local motivation chain, figure/table placement, main-text versus supplement allocation, canonical terminology, and release synchronization. When a PDF exists, inspect the actual reading order. This skill specifies repairs, while manuscript drafting and typesetting perform them.
 
 ## Operate with explicit gates
 

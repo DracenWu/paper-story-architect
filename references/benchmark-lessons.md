@@ -44,3 +44,7 @@ Apply four cautions:
 2. Finished exemplars support functional ordering, not fixed paragraph counts or wording.
 3. Citation density varies by sentence function; it is not a quality target.
 4. Incomplete plans are labeled as planning evidence, and negative examples teach a failure mode rather than a preferred form.
+
+## Comparative indicator and audit papers
+
+Comparative indicator studies often use a compact printed sequence such as `Introduction -> Data/Methods -> Results -> Discussion`, with prior work embedded in the Introduction and closure placed at the end of Discussion. Others retain a separate literature section. Treat this as evidence that functional roles matter more than the number of top-level headings. Preserve the progression from source definition and common comparison population to results and interpretation. Decide printed structure from target-journal exemplars and study complexity; never add a Related Work heading merely to satisfy the blueprint schema.

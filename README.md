@@ -18,6 +18,8 @@ result, figure, or claim boundary changes.
   interpretation, and Conclusion closure.
 - Audit section order, handoffs, paragraph dependencies, evidence consumers,
   scope discipline, and version consistency.
+- Check overall and RQ-level gap/consequence chains, figure and table reading
+  order, main-text versus supplement allocation, and Discussion closure.
 - Map the impact of a changed RQ, construct, result, figure, table, or evidence
   boundary before modifying a blueprint.
 
@@ -69,8 +71,10 @@ Update the blueprint because RQ2 and Figure 3 have changed; show the impact map 
 | `deep` | You are freezing a blueprint, substantially restructuring, or auditing before submission. | Standard records plus paragraph dependencies and eleven semantic-gate verdicts. |
 
 The six functional roles are `introduction`, `related_work`, `methods`,
-`results`, `discussion`, and `conclusion`. Their display titles can follow the
-target journal; the functional order remains explicit.
+`results`, `discussion`, and `conclusion`. They are blueprint units rather
+than mandatory top-level headings: prior work may sit inside the Introduction
+and closure may sit at the end of Discussion when journal practice supports
+that presentation. Their functional order remains explicit.
 
 ## Build workflow
 
@@ -98,7 +102,8 @@ The validator checks structural contracts, including role order, RQ return
 chains, reference direction, evidence consumers, depth-specific targets, and
 the non-empty evidence ledger. At `deep`, it also requires complete paragraph
 records and all eleven semantic-gate records. It does not replace scholarly
-judgment about methods or evidence validity.
+judgment about methods or evidence validity. Deep builds and manuscript audits
+also use the semantic ledgers in `references/manuscript-integrity.md`.
 
 ## Repository layout
 

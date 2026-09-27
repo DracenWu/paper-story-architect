@@ -1,14 +1,14 @@
 # Section Arcs
 
-Use this reference to test the six canonical functional roles in order: `introduction`, `related_work`, `methods`, `results`, `discussion`, `conclusion`. Role order is mandatory; display titles and paragraph counts are not. RQ return fields follow that order: problem/consequence -> `introduction`, gap -> `related_work`, method -> `methods`, result -> `results`, discussion -> `discussion`, conclusion -> `conclusion`; each target role must list the RQ in `rq_consumers`.
+Use this reference to test the six canonical functional roles in order: `introduction`, `related_work`, `methods`, `results`, `discussion`, `conclusion`. Role order is mandatory; top-level heading count, display titles, and paragraph counts are not. Related-work functions may be integrated into the Introduction and conclusion functions may be integrated into the end of Discussion when target-journal practice supports that presentation. Keep them as distinct blueprint units so their jobs and RQ returns remain auditable. RQ return fields follow the canonical order: problem/consequence -> `introduction`, gap -> `related_work`, method -> `methods`, result -> `results`, discussion -> `discussion`, conclusion -> `conclusion`; each target role must list the RQ in `rq_consumers`.
 
 ## `introduction`
 
 Order: `phenomenon/significance -> practical tension -> compact prior-work map -> precise limitation -> consequence -> aim/RQs -> method fit -> bounded contribution -> roadmap`.
 
-The Introduction creates promises; it does not discharge them. Each gap unit must connect a prior-work synthesis to an exact unresolved object, explain the consequence, and establish the corresponding aim. Method fit states capability, not implementation detail. Contributions may not exceed the evidence planned later.
+The Introduction creates promises; it does not discharge them. Its compact prior-work map must close with an overall gap and a concrete consequence: what decision, inference, or use remains unreliable if the gap persists. It must then announce the finite set of linked problems before presenting them. Each problem unit connects a prior-work synthesis to an exact local gap, explains its consequence, states the RQ, and may close with a concise account of how this study responds. Method fit states capability, not implementation detail. Contributions may not exceed the evidence planned later.
 
-Keep gap, RQ, and study response in that order. A gap paragraph should not close with a repeated solution before the unanswered question is clear. State an RQ as an unknown about the research object; put chosen procedures, fields, models, and tests in the subsequent design response unless they are themselves the research object. Check demonstratives such as “this representation” against an antecedent already available to the reader.
+Keep local gap, consequence, RQ, and study response in that order. State an RQ as an unknown about the research object. A response preview may name the comparison or evidence capability used to answer it; put chosen fields, thresholds, model variants, test settings, and detailed expected outputs in Methods. Connect problem units through their logical dependency rather than mechanical “first question/second question” labels. Check demonstratives such as “this representation” against an antecedent already available to the reader.
 
 Handoff: a finite set of questions and required capabilities that Related Work and Methods must establish.
 
@@ -19,6 +19,8 @@ Order: `research object/boundary -> problem-oriented solution streams -> necessa
 Order streams by cognitive dependency, not chronology, search bins, or method labels. Each subsection receives an `entry_question`, establishes a premise, identifies the residual problem, and hands that exact problem onward. Transition words do not create dependency. If adjacent units can be swapped without loss, clarify their dependency, merge them, or remove one.
 
 For each stream, distinguish the question studied, actual method, reported finding, and remaining question. A literature-to-RQ handoff states the unresolved question; it does not prescribe the authors' chosen workflow immediately after an RQ label. Reserve exact expected outputs, implementation fields, and settings for Methods. A review can explain why a capability is needed without presenting this study's solution as prior knowledge. Verify categorical novelty claims against the closest work.
+
+Close each substantial subsection by synthesizing what the stream establishes, the specific issue it leaves open for this paper, and, where useful, the broad capability this study uses to address it. This closure should advance the paper's logic rather than repeat a generic claim that prior work is limited. The Introduction gives the compact map; Related Work supplies the deeper evidence and should preserve the same problem order.
 
 When a literature landscape table helps, use it to synthesize streams and the unresolved intersection. Verify each row's source and analytical role. Repeating RQ labels in every row is no substitute for explaining the connection. Plan its first citation at the synthesis paragraph in Related Work and keep it near that paragraph in the rendered paper.
 
@@ -42,13 +44,15 @@ A validity condition must precede any claim that depends on it. Results establis
 
 Show the decision-bearing observation rather than repeating output cells that hide it. Keep relevant null and boundary findings. If evidence contradicts an intended claim, narrow or withdraw the claim. Check denominators, estimands, labels, and evidence status against current result artifacts.
 
+Organize principal findings in the promised RQ order. Open each RQ subsection with its direct evidence-based answer, then present the quantities and displays that earn it. When prose carries several comparable estimates, states, scenarios, or model families, test whether a compact table would expose the pattern more clearly. Put the summary needed to evaluate the main claim in the article; place exhaustive grids, cell-level outputs, and audit detail in the supplement with an explicit main-text consumer.
+
 Handoff: a bounded finding set, with validity and uncertainty attached, that Discussion must consume.
 
 ## `discussion`: explanation ladder
 
-For each major RQ, use: `direct answer -> brief evidence reminder -> mechanism -> literature dialogue -> theoretical or methodological implication -> actor-condition-action implication -> boundary`.
+For each major RQ, use: `direct answer -> brief evidence reminder -> literature dialogue -> knowledge change -> boundary`. After completing the RQ-level interpretations, synthesize the theoretical or methodological contribution and then the practical implications. For papers with several RQs or a dense evidence base, separate these functions with descriptive subsections; do not force headings when a shorter discussion remains unmistakably ordered.
 
-Discussion interprets results without repeating tables. Every mechanism must be triggered by a result and grounded in prior literature or labeled as interpretation. Complete RQ-level explanations before synthesizing higher-level implications. Practical implications must name the actor, condition, action, and misuse boundary. Limitations reverse-map to design simplifications, data scope, or evidence class; they do not form a generic disclaimer list.
+Discussion interprets results without repeating tables. Every mechanism must be triggered by a result and grounded in prior literature or labeled as interpretation. For each RQ, identify which prior finding is extended, qualified, or placed in a new setting, and show whether the gap promised in the Introduction was actually closed. Complete RQ-level explanations before synthesizing higher-level implications. Theoretical or methodological contributions state the change in knowledge; practical implications name the actor, condition, and action. Limitations reverse-map to design simplifications, data scope, or evidence class; they do not form a generic disclaimer list.
 
 Handoff: stable interpretations at the same strength that Conclusion may compress.
 

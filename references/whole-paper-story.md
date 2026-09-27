@@ -16,17 +16,21 @@ Create one chain for every RQ or primary claim:
 
 `problem -> gap -> consequence -> RQ -> method capability -> result -> Discussion interpretation -> Conclusion closure`
 
+Also record the shared front-end logic: `field-level partial answer -> overall gap -> overall consequence -> finite problem set`. Each RQ then needs a local chain: `relation to the central proposition -> local gap -> local consequence -> RQ -> concise study response`. The response may appear after the RQ in the Introduction, but it previews a capability rather than listing implementation fields, settings, model variants, or expected outputs. A paper with several individually plausible RQs still fails when their relation to the same central proposition is unstated.
+
 Each RQ return-chain field targets the indicated canonical role: `problem` and `consequence` -> `introduction`; `gap` -> `related_work`; `method` -> `methods`; `result` -> `results`; `discussion` -> `discussion`; `conclusion` -> `conclusion`. At `standard`, every field must target the corresponding section ID. At `deep`, every field must target a paragraph ID contained by that role. In either case, the target section's `rq_consumers` must contain the chain's RQ ID.
 
 Require exact IDs at each link. A chain is broken when an RQ lacks a method object or result, when Discussion answers more than Results establish, or when Conclusion strengthens the interpretation. Preserve the RQ/claim order across sections unless a documented analytical dependency requires a different order.
 
 Map every substantive literature stream, method component, table, figure, diagnostic, and audit output to at least one named downstream claim or interpretation. Remove or explicitly reclassify orphan evidence; visual polish is not a consumer.
 
+At `depth=deep`, attach four auxiliary records described in `manuscript-integrity.md`: RQ motivation, visual placement, main/supplement allocation, and terminology/version consistency. These records provide semantic evidence for the eleven gates; the deterministic validator does not replace them.
+
 ## Section contracts
 
 Each section contract records the question it receives, its unique job, what it may use, what it may not do, and the question it hands onward. A locally coherent section fails when it silently performs another section's job or has no downstream consumer.
 
-Use stable identifiers for all sections and, at `deep`, all paragraphs. Every section has one canonical `role` in this order: `introduction`, `related_work`, `methods`, `results`, `discussion`, `conclusion`. All six roles occur exactly once. `name` is a free display title and may follow journal conventions; never infer function from the title.
+Use stable identifiers for all functional section units and, at `deep`, all paragraphs. Every unit has one canonical `role` in this order: `introduction`, `related_work`, `methods`, `results`, `discussion`, `conclusion`. All six roles occur exactly once in the blueprint. They need not become six top-level printed headings: a journal may integrate prior-work positioning into the Introduction, place the conclusion inside Discussion, or use study-specific display titles. Represent an integrated role as a distinct functional unit with the appropriate display name and hierarchy note; preserve its dependency order. Never infer function from the printed title alone.
 
 `must_precede` lists only existing later section IDs that this section actually precedes, normally its immediate dependency successor. It cannot contain the section itself, point to an earlier canonical role, or create a cycle. `rq_consumers` is a non-empty list of one or more declared RQ IDs served by the section; it is not a general claim registry.
 

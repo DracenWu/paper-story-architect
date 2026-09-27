@@ -66,3 +66,7 @@ A transition is valid only if it carries at least one of:
 Connector words such as “however” and “therefore” are not evidence of a handoff. Test the record by deleting the transition wording: the dependency should remain visible in the inherited premise and outgoing question.
 
 Check each paragraph's opening and ending in context. The opening names a known object or supplies the needed bridge; the remaining sentences complete one job; the ending creates the next reader question without announcing the solution too early. Replace vague “this,” “these,” or “that” with an explicit antecedent when a reference crosses a paragraph or section boundary.
+
+Use explicit logical relations instead of ordinal scaffolding when the argument is cumulative. “First,” “second,” and “third” are acceptable for a true list; they are weak substitutes for explaining why one research problem creates the next. A section title, paragraph opening, or transition must name the domain object precisely enough that a broad term such as “AI,” “validation,” or “performance” cannot refer to several different things.
+
+Keep manuscript prose at the scientific level. Local paths, hashes, run dates, processing receipts, historical work-package codes, and maintenance status belong in internal or reproducibility records unless they change scientific interpretation. Necessary scope belongs once near the claim it governs; repeated statements of what the paper does not do are not structural transitions.
