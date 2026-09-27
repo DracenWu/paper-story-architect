@@ -53,6 +53,23 @@ Record the strongest affirmative claim supported by the evidence, then record it
 
 This is an architecture constraint, not authorization to rewrite sentences. When prose needs revision, pass the accepted claim scope to the relevant drafting or language workflow.
 
+## Defensive-writing planning record
+
+At manuscript level, inspect high-impact positions first: title, abstract, Introduction openings and contributions, RQ statements, Results answers, Discussion contribution claims, and Conclusion. Each should lead with the supported scientific content rather than an exclusion, apology, anticipatory rebuttal, or list of what the study does not do.
+
+Classify each flagged passage before proposing a repair:
+
+| Category | Architecture action |
+|:--|:--|
+| `unnecessary_disclaimer` | Delete; verify that no evidence boundary is lost |
+| `necessary_scope` | Express once as the exact population, setting, comparison, estimand, or evidence class |
+| `methodological_limitation` | Place after the affected interpretation or in the consolidated limitations unit |
+| `conceptual_contrast` | Retain only when the contrast advances the argument; prefer an affirmative distinction |
+| `evidence_qualification` | Keep next to the estimate or inference it qualifies |
+| `redundant_clarification` | Consolidate at the first location where the reader needs it |
+
+Record the strongest supported claim before routing prose to `$anti-defensive-writing`. The language pass may delete, consolidate, or convert the flagged wording, but it must not erase genuine uncertainty, adverse evidence, or a design boundary required for valid interpretation.
+
 ## Transition as logical handoff
 
 A transition is valid only if it carries at least one of:

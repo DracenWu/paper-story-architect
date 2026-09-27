@@ -20,11 +20,20 @@ result, figure, or claim boundary changes.
   scope discipline, and version consistency.
 - Check overall and RQ-level gap/consequence chains, figure and table reading
   order, main-text versus supplement allocation, and Discussion closure.
+- Detect defensive narrative structures, assign each necessary limitation to its
+  claim consumer, and create a handoff ledger for sentence-level revision with
+  `$anti-defensive-writing`.
 - Map the impact of a changed RQ, construct, result, figure, table, or evidence
   boundary before modifying a blueprint.
 
 The skill plans architecture. It does not draft manuscript prose, run
 experiments, create results, or expand a paper's scientific claims.
+
+For wording revision, use the accepted claim scopes and defensive-writing
+handoff ledger with `$anti-defensive-writing`. Paper Story Architect identifies
+where defensive framing breaks the argument; the language skill executes the
+sentence-level deletion, consolidation, or positive-scope rewrite while
+preserving genuine uncertainty and methodological limits.
 
 ## Install
 

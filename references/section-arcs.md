@@ -6,7 +6,7 @@ Use this reference to test the six canonical functional roles in order: `introdu
 
 Order: `phenomenon/significance -> practical tension -> compact prior-work map -> precise limitation -> consequence -> aim/RQs -> method fit -> bounded contribution -> roadmap`.
 
-The Introduction creates promises; it does not discharge them. Its compact prior-work map must close with an overall gap and a concrete consequence: what decision, inference, or use remains unreliable if the gap persists. It must then announce the finite set of linked problems before presenting them. Each problem unit connects a prior-work synthesis to an exact local gap, explains its consequence, states the RQ, and may close with a concise account of how this study responds. Method fit states capability, not implementation detail. Contributions may not exceed the evidence planned later.
+The Introduction creates promises; it does not discharge them. Its compact prior-work map must close with an overall gap and a concrete consequence: what decision, inference, or use remains unreliable if the gap persists. It must then announce the finite set of linked problems before presenting them. Each problem unit connects a prior-work synthesis to an exact local gap, explains its consequence, states the RQ, and may close with a concise account of how this study responds. Method fit states capability, not implementation detail. Contributions may not exceed the evidence planned later. Gap and contribution paragraphs lead with the research object and supported claim, not an anticipatory defense or a list of excluded ambitions.
 
 Keep local gap, consequence, RQ, and study response in that order. State an RQ as an unknown about the research object. A response preview may name the comparison or evidence capability used to answer it; put chosen fields, thresholds, model variants, test settings, and detailed expected outputs in Methods. Connect problem units through their logical dependency rather than mechanical “first question/second question” labels. Check demonstratives such as “this representation” against an antecedent already available to the reader.
 
@@ -52,7 +52,7 @@ Handoff: a bounded finding set, with validity and uncertainty attached, that Dis
 
 For each major RQ, use: `direct answer -> brief evidence reminder -> literature dialogue -> knowledge change -> boundary`. After completing the RQ-level interpretations, synthesize the theoretical or methodological contribution and then the practical implications. For papers with several RQs or a dense evidence base, separate these functions with descriptive subsections; do not force headings when a shorter discussion remains unmistakably ordered.
 
-Discussion interprets results without repeating tables. Every mechanism must be triggered by a result and grounded in prior literature or labeled as interpretation. For each RQ, identify which prior finding is extended, qualified, or placed in a new setting, and show whether the gap promised in the Introduction was actually closed. Complete RQ-level explanations before synthesizing higher-level implications. Theoretical or methodological contributions state the change in knowledge; practical implications name the actor, condition, and action. Limitations reverse-map to design simplifications, data scope, or evidence class; they do not form a generic disclaimer list.
+Discussion interprets results without repeating tables. Every mechanism must be triggered by a result and grounded in prior literature or labeled as interpretation. For each RQ, identify which prior finding is extended, qualified, or placed in a new setting, and show whether the gap promised in the Introduction was actually closed. Complete RQ-level explanations before synthesizing higher-level implications. Theoretical or methodological contributions state the change in knowledge; practical implications name the actor, condition, and action. State each interpretation before its necessary boundary. Limitations reverse-map to design simplifications, data scope, or evidence class, appear once with their claim consumer or in a consolidated limitations unit, and do not form a generic disclaimer list.
 
 Handoff: stable interpretations at the same strength that Conclusion may compress.
 
@@ -60,7 +60,7 @@ Handoff: stable interpretations at the same strength that Conclusion may compres
 
 Order: `opening problem -> answers in original RQ order -> unifying contribution -> evidence boundary -> tightly matched extension`.
 
-Conclusion is compression, not escalation. It adds no new data, result, mechanism, stakeholder, citation, novelty branch, or stronger causal/generalization language. It returns the same conceptual vocabulary and ordering promised by the Introduction.
+Conclusion is compression, not escalation. It adds no new data, result, mechanism, stakeholder, citation, novelty branch, or stronger causal/generalization language. It returns the same conceptual vocabulary and ordering promised by the Introduction. Its opening and final contribution statement are affirmative closures; necessary scope is expressed as the exact domain of the conclusion rather than a closing list of exclusions.
 
 ## Cross-section prohibitions and handoffs
 

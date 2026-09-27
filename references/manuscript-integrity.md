@@ -43,6 +43,24 @@ Record canonical RQ labels, construct names, state labels, sample names and deno
 
 Before release, compare the canonical manuscript, supplement, translated reading version, rendered PDFs, README or completion report, checksum list, and anonymous review package. Every artifact must identify the same scientific version. A current PDF paired with stale documentation is a version-consistency failure.
 
+## Defensive-writing handoff ledger
+
+For every passage whose main function is caveat, exclusion, hedge, rebuttal, or scope control, record:
+
+`location | claim_consumer | category | strongest_supported_claim | necessary_boundary | current_function | action | target_workflow`
+
+Use only these categories: `unnecessary_disclaimer`, `necessary_scope`, `methodological_limitation`, `conceptual_contrast`, `evidence_qualification`, and `redundant_clarification`. The action is `delete`, `convert_to_positive_scope`, `consolidate`, `retain`, or `relocate`.
+
+Pass requires all of the following:
+
+1. every retained limitation has a named claim consumer;
+2. each boundary appears once at the earliest location needed for valid interpretation, unless a later concise reminder prevents a genuine ambiguity;
+3. title, abstract, contribution statements, Results answers, Discussion contributions, and Conclusion lead with supported content rather than disclaimers;
+4. narrowing is expressed through an exact subject, predicate, estimand, population, setting, comparison, or evidence class;
+5. the accepted ledger is handed to `$anti-defensive-writing` for sentence-level execution after the architecture is approved.
+
+Do not convert a broad claim into an acceptable one by appending a caveat. Narrow the claim itself. Do not delete uncertainty, adverse evidence, or a limitation that changes scientific interpretation.
+
 ## Benchmark structure check
 
 Use comparable papers to test section functions and order, preferably from the target journal or the same study type. Verify journal identity and article content before treating a paper as a positive exemplar. Compare:
