@@ -40,6 +40,8 @@ Always read [whole-paper-story.md](references/whole-paper-story.md). Read [secti
 
 For manuscript-level `audit` and `deep` builds, apply the RQ/implementation and visual-placement probes in [section-arcs.md](references/section-arcs.md) and [audit-gates.md](references/audit-gates.md), then read [manuscript-integrity.md](references/manuscript-integrity.md). Record the overall gap and consequence, each RQ's local motivation chain, figure/table placement, main-text versus supplement allocation, canonical terminology, and release synchronization. When a PDF exists, inspect the actual reading order. This skill specifies repairs, while manuscript drafting and typesetting perform them.
 
+For a standard full-length empirical article, plan approximately 70 unique references actually cited in the manuscript; use 65--80 as the working band unless the user, article type, or verified journal rule sets another target. Read the reference-portfolio rules in [paragraph-language-citations.md](references/paragraph-language-citations.md). The blueprint cannot freeze below the applicable band without an explicit exception and a documented literature-coverage assessment. A numerical target never authorizes irrelevant citations.
+
 ## Operate with explicit gates
 
 For `build`, stop at exactly three confirmations:

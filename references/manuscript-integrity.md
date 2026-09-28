@@ -17,6 +17,14 @@ Record the overall gap, overall consequence, and the bridge to a finite set of p
 
 The response preview may follow the RQ. Keep it concise and postpone implementation details. Verify that the three local chains form one cumulative argument rather than parallel topics joined only by numbering.
 
+## Reference portfolio ledger
+
+Record every retained source as:
+
+`source_id | verified_identity | literature_stream | rq_or_claim_consumer | citation_function | intended_section | main_or_supplement | retained_or_removed`
+
+For a standard full-length empirical article, verify approximately 70 unique references, using 65--80 as the working band unless the project contract records another applicable target. Count only works actually cited in the canonical manuscript. A source without a claim consumer or citation function is not eligible to satisfy the target. Before freeze, report the total, totals by literature stream and section, uncovered streams, duplicate functions, and sources removed as irrelevant or redundant.
+
 ## Figure and table ledger
 
 For every visual, record:

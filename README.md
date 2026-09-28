@@ -20,6 +20,8 @@ result, figure, or claim boundary changes.
   scope discipline, and version consistency.
 - Check overall and RQ-level gap/consequence chains, figure and table reading
   order, main-text versus supplement allocation, and Discussion closure.
+- For a standard full-length empirical article, plan about 70 unique cited
+  references, normally 65--80, and audit their coverage and claim consumers.
 - Detect defensive narrative structures, assign each necessary limitation to its
   claim consumer, and create a handoff ledger for sentence-level revision with
   `$anti-defensive-writing`.

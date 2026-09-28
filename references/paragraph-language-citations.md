@@ -37,9 +37,21 @@ Plan citations by what a sentence does:
 | This paper's aim, RQ, design choice, contribution, or organization | Usually no external citation |
 | Interpretation of this paper's result | Point to the internal result; use external sources only for dialogue |
 
-Reject blanket citation-density targets, including an 85% rule. Such thresholds reward stuffing and distort Introduction and Methods. Literature synthesis should be citation-rich because of its functions, not because it must reach a percentage. Every planned citation needs a role such as definition, synthesis, contrast, method, finding, or closest-work positioning.
+Reject blanket sentence-level citation-density targets, including an 85% rule. Such thresholds reward stuffing and distort Introduction and Methods. Literature synthesis should be citation-rich because of its functions, not because every sentence must contain a citation. Every planned citation needs a role such as definition, synthesis, contrast, method, finding, or closest-work positioning.
 
 In literature synthesis, separate an originating study's finding from the author's cross-study inference. A citation supports what its source actually reports, not an adjacent new interpretation. Count references cited in the final text, not unused bibliography entries, and remove sources included only to reach a numerical target. Verify each review-table row's study object, method, and finding against its sources.
+
+## Reference portfolio size and coverage
+
+For a standard full-length empirical article, target approximately 70 unique references cited in the manuscript. Treat 65--80 as the normal planning band. A user-specified target, a different article type, or a verified journal limit takes precedence and must be recorded in the project contract. Review articles, short communications, registered reports, and theory papers require an explicit format-specific target rather than automatic use of the empirical-article band.
+
+Build a reference-portfolio ledger with:
+
+`source_id | verified_identity | literature_stream | rq_or_claim_consumer | citation_function | intended_section | main_or_supplement | retained_or_removed`
+
+The portfolio must cover the research phenomenon and context, theoretical or conceptual foundations, each RQ's literature stream, measurement or method foundations, the closest-work set supporting the gap, sources needed to interpret the results, and relevant recent work from the target journal. Count unique works actually cited in the canonical manuscript; report supplement-only sources separately when the supplement has a separate bibliography.
+
+The blueprint cannot freeze when a standard empirical article contains fewer than 65 cited works unless the user or verified journal format supplies an explicit exception. More than 80 is a pruning trigger, not an automatic failure: remove redundant or weakly connected sources, while retaining additional works that perform distinct necessary functions. Never add a source solely to enter the band. If relevance screening leaves the portfolio below target, report the uncovered literature streams and continue literature discovery rather than padding the bibliography.
 
 ## Positive and precise scope
 
